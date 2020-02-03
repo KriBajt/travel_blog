@@ -1,0 +1,98 @@
+/* ----------- Site title ----------- */
+main .site-title-pages {
+    background: url('../assets/milky-way-2695569_1920.jpg');
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title-pages .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+main .site-title-pages h1,
+h3 {
+    margin: .3rem;
+}
+
+
+main .site-title-pages .btn {
+    margin: 1.8rem;
+    background: var(--sky);
+
+
+}
+
+main .site-title-pages .btn:hover {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/* -----x------ Site title -----x------ */
+
+
+/* ---------GALERY----------- */
+
+
+.gallery .container .gallery-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.gallery .container .gallery-content img {
+    width: 550px;
+    grid-template-columns: 100%;
+    padding: .5rem;
+}
+
+/* ----x-----GALERY-------x---- */
+
+/*    Viewport less then or equal to 1440px      */
+@media only screen and (max-width:1440px) {
+    .gallery .container .gallery-content {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery .container .gallery-content img {
+        width: 425px;
+
+    }
+
+}
+
+/* x  Viewport less then or equal to 1440px */
+
+/*    Viewport less then or equal to 1024px      */
+@media only screen and (max-width:1024px) {
+    .gallery .container .gallery-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery .container .gallery-content img {
+        width: 400px;
+    }
+}
+
+/* x  Viewport less then or equal to 1440px */
+
+/*    Viewport less then or equal to 1024px      */
+@media only screen and (max-width:768px) {
+    .gallery .container .gallery-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery .container .gallery-content img {
+        width: 100%;
+    }
+}
+
+/* x  Viewport less then or equal to 1440px */

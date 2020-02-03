@@ -103,7 +103,7 @@ p {
     background: white;
     padding: 0 2rem;
     height: 0;
-    min-height: 10vh;
+    min-height: 7vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
     z-index: 100;
@@ -119,12 +119,13 @@ p {
     width: 90%;
     cursor: pointer;
     display: none;
+
 }
 
 .nav .toggle-collapse .toggle-icons {
     display: flex;
     justify-content: flex-end;
-    padding: 1.7rem 0;
+    margin: 1.7rem 0rem;
 }
 
 .nav .toggle-collapse .toggle-icons i {
@@ -134,6 +135,7 @@ p {
 
 .collapse {
     height: 30rem;
+
 }
 
 .nav .nav-items {
@@ -196,16 +198,14 @@ main .site-title {
     height: 110vh;
     display: flex;
     justify-content: center;
-    margin-top: -50px;
 
 
 }
 
 main .site-title .site-background {
-    /* padding-top: 10rem; */
+    padding-top: 6rem;
     text-align: center;
     color: white;
-    margin: 8rem;
 
 }
 
